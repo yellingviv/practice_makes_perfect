@@ -9,10 +9,7 @@ def string_compare(s, t):
     s_clean = string_cleaning(s)
     t_clean = string_cleaning(t)
 
-    if s_clean == t_clean:
-        return True
-    else:
-        return False
+    return s_clean == t_clean
 
 
 def string_cleaning(to_clean):
